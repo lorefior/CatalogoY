@@ -1,0 +1,34 @@
+{
+    "name": "Subcategoria",
+    "fields": [
+        {
+            "fieldName": "descripcion",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "caracteristica",
+            "otherEntityRelationshipName": "subcategoria",
+            "relationshipName": "caracteristica"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "categoria",
+            "otherEntityRelationshipName": "subcategoria",
+            "relationshipName": "categoria",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200210015211",
+    "entityTableName": "subcategoria",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

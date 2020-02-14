@@ -1,0 +1,20 @@
+{
+    "name": "TipoDato",
+    "fields": [
+        {
+            "fieldName": "valor",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200210015214",
+    "entityTableName": "tipo_dato",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

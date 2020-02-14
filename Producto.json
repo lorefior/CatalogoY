@@ -1,0 +1,55 @@
+{
+    "name": "Producto",
+    "fields": [
+        {
+            "fieldName": "titulo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "descripcion",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "valor",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "imagen",
+            "otherEntityRelationshipName": "producto",
+            "relationshipName": "imagen"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "valor",
+            "otherEntityRelationshipName": "producto",
+            "relationshipName": "valor"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "tipoMoneda",
+            "otherEntityRelationshipName": "producto",
+            "relationshipName": "moneda",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "subcategoria",
+            "otherEntityRelationshipName": "producto",
+            "relationshipName": "subcategoria",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200210015208",
+    "entityTableName": "producto",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

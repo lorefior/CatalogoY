@@ -1,0 +1,20 @@
+{
+    "name": "Categoria",
+    "fields": [
+        {
+            "fieldName": "descripcion",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200210015210",
+    "entityTableName": "categoria",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Caracteristica",
+    "fields": [
+        {
+            "fieldName": "nombre",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "valor",
+            "otherEntityRelationshipName": "caracteristica",
+            "relationshipName": "valor"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "tipoDato",
+            "otherEntityRelationshipName": "caracteristica",
+            "relationshipName": "dato",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "subcategoria",
+            "otherEntityRelationshipName": "caracteristica",
+            "relationshipName": "subcategoria",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200210015212",
+    "entityTableName": "caracteristica",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

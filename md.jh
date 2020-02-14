@@ -1,0 +1,49 @@
+
+entity Producto{
+    titulo String,
+    descripcion String,
+    valor Double
+}
+entity Imagen{
+imagenProducto Blob
+}
+
+entity Categoria {
+    descripcion String
+}
+
+entity Subcategoria{
+   descripcion String
+}
+
+entity Caracteristica{
+   nombre String
+}
+
+entity TipoMoneda { 
+   codigo String,
+   nombre String
+}
+
+entity TipoDato{
+valor String
+}
+
+entity Valor { 
+   valor String
+}
+
+relationship ManyToOne {
+ Subcategoria { categoria} to Categoria
+ Producto { moneda } to TipoMoneda
+ Caracteristica { dato } to TipoDato
+ Producto { subcategoria } to Subcategoria
+ }
+ 
+
+relationship OneToMany {
+ Subcategoria { caracteristica } to Caracteristica
+ Producto { imagen } to Imagen
+ Caracteristica { valor } to Valor
+  Producto { valor } to Valor
+}

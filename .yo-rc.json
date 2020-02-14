@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cdainfo.catalogosubasta",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "Catalog0",
+    "packageName": "com.cdainfo.catalogosubasta",
+    "packageFolder": "com/cdainfo/catalogosubasta",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTJhMGMzYjY4MjdlY2ZlOGE2OTNiOTk4ODNhZmIwMjk1YTc5YzNkYzc1OGI2YmJlOTQ4MjY5YmJkMmUxMjJjYTBmYjU2YWQxY2Q1YTVhOTQxZGI3YmVkOGNmMTU1NDU2MDVjZWNkOTI2MzJjN2ZmOTY1YjdlZWQzNDcwYzJhM2Q=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "sketchy",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "blueprints": []
+  }
+}

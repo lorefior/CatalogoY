@@ -1,0 +1,35 @@
+{
+    "name": "Valor",
+    "fields": [
+        {
+            "fieldName": "valor",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "caracteristica",
+            "otherEntityRelationshipName": "valor",
+            "relationshipName": "caracteristica",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "producto",
+            "otherEntityRelationshipName": "valor",
+            "relationshipName": "producto",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200210015215",
+    "entityTableName": "valor",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

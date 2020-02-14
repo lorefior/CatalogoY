@@ -1,0 +1,29 @@
+{
+    "name": "Imagen",
+    "fields": [
+        {
+            "fieldName": "imagenProducto",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "producto",
+            "otherEntityRelationshipName": "imagen",
+            "relationshipName": "producto",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200210015209",
+    "entityTableName": "imagen",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
